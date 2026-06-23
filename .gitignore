@@ -1,0 +1,62 @@
+# Unreal Engine
+Binaries/
+Intermediate/
+Saved/
+*.sln
+*.sln.DotSettings
+*.project
+*.vcxproj*
+*.vcproj*
+.vs/
+
+# Visual Studio
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Generated files
+DarkFantasyVFX.sln
+DarkFantasyVFX.vcxproj
+DarkFantasyVFX.vcxproj.filters
+
+# Dependencies
+ThirdParty/
+
+# Build artifacts
+*.exe
+*.dll
+*.dylib
+*.so
+*.a
+*.o
+
+# Editor
+.EditorConfig
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Node (for Pixel Streaming)
+node_modules/
+npm-debug.log
+pkg-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Temporary
+*.tmp
+*.temp
+*.bak
