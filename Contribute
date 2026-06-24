@@ -1,0 +1,113 @@
+# Contributing to Dark Fantasy VFX
+
+We welcome contributions to Dark Fantasy VFX! This guide will help you get started.
+
+## Getting Started
+
+1. **Fork the repository**
+2. **Clone your fork:**
+   ```bash
+   git clone https://github.com/your-username/dark-fantasy-vfx.git
+   ```
+3. **Add upstream:**
+   ```bash
+   git remote add upstream https://github.com/manwhatdahellboi-hue/dark-fantasy-vfx.git
+   ```
+4. **Create a feature branch:**
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+
+## Making Changes
+
+1. Make your changes
+2. **Commit:**
+   ```bash
+   git commit -m 'Add amazing feature'
+   ```
+3. **Push:**
+   ```bash
+   git push origin feature/your-feature
+   ```
+4. **Open a Pull Request**
+
+## Code Style
+
+### C++ Guidelines
+
+- Follow Unreal Engine coding standards
+- Use PascalCase for class names: `AMyCharacter`
+- Use camelCase for variables: `myVariable`
+- Use UPROPERTY/UFUNCTION macros appropriately
+- Comment complex logic
+- Keep functions focused and small
+
+### Blueprint Guidelines
+
+- Use descriptive names
+- Organize by functionality
+- Comment important nodes
+- Keep blueprint graphs clean and organized
+
+## Commit Messages
+
+Use clear, descriptive commit messages:
+
+```
+Add particle effect system
+
+Implements GPU-accelerated particle system with LOD support. Includes:
+- Niagara integration
+- Performance optimization
+- Blueprint templates
+```
+
+## Pull Request Process
+
+1. Update documentation if needed
+2. Test your changes thoroughly
+3. Ensure code follows style guidelines
+4. Provide clear PR description
+5. Link related issues
+6. Await review
+
+## Reporting Issues
+
+When reporting bugs, include:
+
+- UE5 version
+- GPU model
+- Driver version
+- Steps to reproduce
+- Expected vs actual behavior
+- Screenshots/videos if applicable
+
+## Feature Requests
+
+For feature requests:
+
+- Check existing issues first
+- Describe the use case
+- Explain benefits
+- Provide examples if possible
+
+## Code Review
+
+All submissions require review. Reviewers will:
+
+- Verify code quality
+- Check performance impact
+- Ensure documentation
+- Test functionality
+
+## Questions?
+
+Feel free to:
+
+- Open an issue
+- Check documentation
+- Review existing code
+
+## License
+
+By contributing, you agree your code will be licensed under MIT
